@@ -9,7 +9,7 @@ are new web technologies, creating products and also areas
 related to deep learning and natural language processing.
 My academic education process started in 2020. Whenever
 possible, I also apply my passion for product development
-with NodeJS and Modern JavaScript Library and Frameworks
+with Node.js and Modern JavaScript Library and Frameworks
 such as React.js, Vue.js and Next.js. I am always open to
 new opportunities and cooperation, so feel free to contact me.`;
 
