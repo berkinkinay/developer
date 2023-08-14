@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sir {
+    @apply flex 2xl:pl-64 2xl:pr-64 pt-10 lg:p-0 flex-col 
+            bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-fuchsia-600 
+          via-gray-800 to-violet-100 2xl:h-auto lg:h-auto w-full items-center justify-center
+  }
+  .sir-body {
+    @apply flex flex-col 2xl:h-full md:h-auto w-full m-5 
+           rounded-[40px] items-center bg-black
+  } 
+}
+
+.hello {
+    display: flex; 
+    place-items: center;
+    width: fit-content;
+    font-weight: bolder;
+    background-image: linear-gradient(
+      to right,
+      #3e7bca,
+      #6f3783 50%,
+      #eeeded 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hello:before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hello:hover {
+   background-position: 0;
+  }
+  
+  .hello:hover::before {
+    width:100%;
+  }
+
+ .title {
+  font-family: 'Roboto', sans-serif; 
+  }
+
+  .wave {
+    animation-name: wave-animation; 
+    animation-duration: 2.5s;       
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;      
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  /* For demonstration purposes only: */
+  body { font-size: 3.5em }
+  h1 { font-size: 0.5em }
