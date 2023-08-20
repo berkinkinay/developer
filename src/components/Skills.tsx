@@ -15,7 +15,7 @@ const Skills = () => {
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ delay: key * 0.03, duration: 0.4 }}
+                transition={{ delay: key * 0.03, duration: 0.2 }}
                 key={key} 
                 class='flex flex-col items-center hover:!scale-125 !duration-200 md:!duration-25 xs:!duration-25'
               >
@@ -37,7 +37,7 @@ const Skills = () => {
               <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
-                transition={{ delay: key * 0.03, duration: 0.4 }}
+                transition={{ delay: key * 0.03, duration: 0.2 }}
                 key={key} 
                 class='flex flex-col items-center hover:!scale-125 !duration-200 md:!duration-25 xs:!duration-25'
               >
