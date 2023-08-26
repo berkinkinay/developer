@@ -8,7 +8,7 @@ const Skills = () => {
         <div 
           class='w-full h-auto grid grid-cols-4 place-items-center text-4xl 
                      text-white divide-b-4 divide-white bg-gradient-to-r from-green-900
-                     via-black to-black rounded-xl gap-8'
+                     via-black to-black rounded-xl gap-10 p-[25px]'
         >
            {techstackData.frontend.map((skill, key) => {
             return (
