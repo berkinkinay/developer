@@ -5,7 +5,7 @@ const Skills = () => {
     return ( 
       <>
         <h1 class='flex text-pink-200 text-2xl font-normal'>My Tech Stack and Skills </h1>
-       <div 
+        <div 
           class='w-full h-auto grid grid-cols-4 place-items-center text-4xl 
                      text-white divide-b-4 divide-white bg-gradient-to-r from-green-900
                      via-black to-black rounded-xl gap-10 p-[25px]'
