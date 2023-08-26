@@ -1,7 +1,6 @@
 import Body from './Body'
 
 export function AppView() {
-
   return (
     <div className='title'>
       <div className='sir'>
@@ -16,5 +15,5 @@ export function AppView() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
