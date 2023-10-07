@@ -8,11 +8,11 @@ manage state during development process. I love writing user interfaces and work
 architecture with clean code. I mostly coding in React library with TypeScript. I prefer the
 best UI, UX for users. I love writing user interfaces and working in pure CSS and CSS libraries
 like Styled-Components, SaSS,TailwindCSS architecture with clean code. I actually like to use
-some animation libraries too like Framer Motion.`;
+some animation libraries too like Framer Motion and PrimeReact`;
 
 const Context = () => {
   return (
-    <div className='flex text-lg text-gray-200 text-left font-normal ml-2 mt-3'>
+    <div className='flex text-lg text-gray-200 text-left font-normal ml-2 mt-3 p-5'>
     <motion.p
         initial={{ opacity: 0.8 }}
         whileInView={{ opacity: 1 }}
