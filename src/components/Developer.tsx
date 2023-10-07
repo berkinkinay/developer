@@ -3,7 +3,7 @@ import { GrMail } from 'react-icons/gr';
 import { TbFileDownload } from 'react-icons/tb';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion'
-
+ 
 const sequences = [
   'Front-End Developer',
     1500,
