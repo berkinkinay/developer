@@ -9,7 +9,7 @@ import LastText from './LastText';
 
 const Body = () => {
   return (
-    <div class='flex flex-col w-auto h-full rounded-xl gap-10'>
+    <div class='flex flex-col w-auto h-full rounded-xl gap-10 p-10'>
         <Header />
         <Developer />
         <About />
