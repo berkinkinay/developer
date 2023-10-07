@@ -15,5 +15,5 @@ export function AppView() {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
