@@ -23,7 +23,7 @@ const Developer = () => {
   return (
     <>
      <motion.div
-       initial={{ opacity: 0 }}
+       initial={{ opacity: 1 }}
        whileInView={{ opacity: 1 }}
        transition={{ delay: 0.01, duration: 0.4 }}
        class='!grid 2xl:grid-cols-2 lg:grid lg:grid-rows w-full h-auto
