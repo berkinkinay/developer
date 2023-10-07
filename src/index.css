@@ -9,7 +9,7 @@
           via-gray-800 to-violet-100 2xl:h-auto lg:h-auto w-full items-center justify-center
   }
   .sir-body {
-    @apply flex flex-col 2xl:h-full md:h-auto w-full m-5 
+    @apply flex flex-col 2xl:h-full md:h-auto 2xl:w-full lg:w-[1100px] m-5 
            rounded-[40px] items-center bg-black
   } 
 }
@@ -78,6 +78,5 @@
     100% { transform: rotate( 0.0deg) }
   }
   
-  /* For demonstration purposes only: */
   body { font-size: 3.5em }
   h1 { font-size: 0.5em }
