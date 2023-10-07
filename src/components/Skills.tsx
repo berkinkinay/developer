@@ -4,7 +4,7 @@ import  { motion } from 'framer-motion';
 const Skills = () => {
     return ( 
       <>
-        <h1 class='flex text-pink-200 text-2xl font-normal'>My Tech Stack and Skills </h1>
+        <h1 class='flex text-pink-200 text-2xl font-normal indent-5'>My Tech Stack and Skills </h1>
         <div 
           class='w-full h-auto grid grid-cols-4 place-items-center text-4xl 
                      text-white divide-b-4 divide-white bg-gradient-to-r from-green-900
@@ -30,7 +30,7 @@ const Skills = () => {
             );
            })}
         </div>
-        <h2 class='flex text-pink-200 text-2xl font-normal'> Tools I use</h2>
+        <h2 class='flex text-pink-200 text-2xl font-norma5 indent-5'> Tools I use</h2>
         <div class='w-full h-fit grid grid-cols-4 place-items-center text-center text-white'>
            {techstackData.tools.map((skill, key) => {
             return (
