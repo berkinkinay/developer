@@ -16,8 +16,8 @@ new opportunities and cooperation, so feel free to contact me.`;
 const About = () => {
   return (
     <div className='flex flex-col w-full h-auto'>
-        <h1 className='font-normal text-2xl text-pink-200'> About Me </h1> 
-        <div className='flex text-lg text-slate-300 text-left font-normal ml-1 mt-3'> 
+        <h1 className='font-normal text-2xl text-pink-200 indent-5'> About Me </h1> 
+        <div className='flex text-lg text-slate-300 text-left font-normal ml-1 mt-3 p-5'> 
           <motion.p
             initial={{ opacity: 0.8 }}
             animate={{ opacity: 1.1 }}
