@@ -24,11 +24,11 @@ const Projects = () => {
                   class="w-auto h-auto object-cover flex flex-cols-2 rounded-lg"
                 />
                     <motion.div
-                      initial={{ opacity: 0 }}
+                      initial={{ opacity: 0 }}x
                       whileHover={{ opacity: 1 }}
                       transition={{ duration: 0.3 }}
-                      class='flex absolute z-50 justify-center items-center 2xl:h-64 xl:h-72 2xl:w-[500px] lg:w-auto
-                             bg-blue text-white bg-black bg-opacity-70 rounded-2xl xl:xl:w-[600px]'
+                      class='flex absolute z-50 justify-center items-center 2xl:h-64 lg:h-28 xl:h-72 2xl:w-[500px]
+                             bg-blue text-white bg-black bg-opacity-70 rounded-2xl xl:w-[480px]'
                     >
                       <div class="flex flex-col justify-center items-center gap-4 text-white">
                         <h3 class="text-xl font-medium">{project.name}</h3>
