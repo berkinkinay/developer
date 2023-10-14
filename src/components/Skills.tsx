@@ -6,9 +6,9 @@ const Skills = () => {
       <>
         <h1 class='flex text-pink-200 text-2xl font-normal indent-5'>My Tech Stack and Skills </h1>
         <div 
-          class='w-full h-auto grid grid-cols-4 place-items-center text-4xl 
-                     text-white divide-b-4 divide-white bg-gradient-to-r from-green-900
-                     via-black to-black rounded-xl gap-10 p-[25px]'
+          class='w-full h-auto grid grid-cols-4 place-items-center text-4xl
+                 text-white divide-b-4 divide-white bg-gradient-to-r from-green-900
+                 via-black to-black rounded-xl gap-10 p-[25px]'
         >
            {techstackData.frontend.map((skill, key) => {
             return (
@@ -55,4 +55,4 @@ const Skills = () => {
       </>
     );
 };
-export default Skills;  
+export default Skills;
