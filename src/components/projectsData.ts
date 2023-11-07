@@ -1,11 +1,10 @@
 export default [
     {
-        name: 'Quiz Creator',
-        description: 
-            'This quiz creator build with Preact + Vite and Javascript. Users can create their questions about like different categories, determine the number of questions etc.',
-        link: 'https://github.com/berkinkinay/quiz',
-        image: '/quiz.png',
-        projectLink: 'https://main--quizcreatorr.netlify.app/',
+        name: 'Soundon',
+        description: 'This is a music application with Spotify API. The template uses ReactJS and JavaScript.',
+        link: 'https://github.com/berkinkinay/-soundon-music-app',
+        image: '/Soundon.png',
+        projectLink: 'https://soundon-theta.vercel.app/',
     },
     {
         name:'3D Earth',
@@ -22,18 +21,19 @@ export default [
         projectLink:'https://3d-objects-sage.vercel.app/',
     },
     {
+        name: 'Quiz Creator',
+        description: 
+            'This quiz creator build with Preact + Vite and Javascript. Users can create their questions about like different categories, determine the number of questions etc.',
+        link: 'https://github.com/berkinkinay/quiz',
+        image: '/quiz.png',
+        projectLink: 'https://main--quizcreatorr.netlify.app/',
+    },
+    {
         name:'Random Joke Creator',
         description: 'This is a random joke creator from an API with useState and useEffect hooks.',
         link: 'https://github.com/berkinkinay/fetch-data-from-random-jokes-API',
         image:'/joke.png',
         projectLink:'https://random-jokes-neon.vercel.app/',
-    },
-    {
-        name: 'Soundon',
-        description: 'This is a music application with Spotify API. The template uses ReactJS and JavaScript.',
-        link: 'https://github.com/berkinkinay/-soundon-music-app',
-        image: '/Soundon.png',
-        projectLink: 'https://soundon-theta.vercel.app/',
     },
     {
         name:'Login with your Spotify',
