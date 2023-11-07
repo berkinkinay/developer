@@ -26,18 +26,20 @@ export default [
         description: 'This is a random joke creator from an API with useState and useEffect hooks.',
         link: 'https://github.com/berkinkinay/fetch-data-from-random-jokes-API',
         image:'/joke.png',
+        projectLink:'https://random-jokes-neon.vercel.app/',
     },
     {
         name: 'Soundon',
         description: 'This is a music application with Spotify API. The template uses ReactJS and JavaScript.',
+        link: 'https://github.com/berkinkinay/-soundon-music-app',
         image: '/Soundon.png',
+        projectLink: 'https://soundon-theta.vercel.app/',
     },
     {
         name:'Login with your Spotify',
         description: 'This is just a another way to login with your spotify account.',
         link: 'https://github.com/berkinkinay/Another-way-to-login-your-Spotify-act',
         image:'/demo.png',
-        projectLink:'',
     },
     {
         name:'Chat Application',
