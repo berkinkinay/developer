@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .sir {
-    @apply flex 2xl:pl-64 2xl:pr-64 pt-10 lg:p-0 flex-col xs:w-full p-0
-            bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-fuchsia-600 
-           via-gray-800 to-violet-100 2xl:h-auto lg:h-auto w-full items-center justify-center
-  }
-  .sir-body {
-    @apply flex flex-col 2xl:h-full md:h-auto xs:w-full 2xl:w-full lg:w-[1100px] md:w-full sm:w-auto m-5 
-           rounded-[40px] items-center bg-black
-  }
-}
-
 .hello {
     display: flex; 
     place-items: center;
