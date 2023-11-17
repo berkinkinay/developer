@@ -24,14 +24,14 @@ const Developer = () => {
     <>
      <motion.div
        initial={{ opacity: 1 }}
-       whileInView={{ opacity: 1 }}
+       whileInView={{ opacity: 1.1 }}
        transition={{ delay: 0.01, duration: 0.4 }}
        class='!grid 2xl:grid-cols-2 lg:grid lg:grid-rows w-full h-auto
-       text-white xl:!duration-150 md:!duration-25 xs:!duration-25'
+               text-white xl:!duration-150 md:!duration-25 xs:!duration-25'
       >
           <div className='flex rounded-xl p-12 items-center justify-center'>
               <img
-                class='2xl:h-[290px] md:h-[230px] sm:h-[150px] rounded-2xl
+                class='2xl:h-[290px] md:h-[230px] sm:h-[190px] rounded-2xl
                        border-2 border-slate-200 hover:border-green-400 
                        shadow-lg shadow-indigo-500/30'
                 src={Me} 
@@ -52,11 +52,11 @@ const Developer = () => {
                 />
               </div>
             </div>
-            <div className='flex flex-cols-2 lg:flex lg-flex-col justify-center items-center w-full mt-4 gap-10'>
+            <div className='flex flex-cols-2 lg:flex lg-flex-col justify-center items-center w-full mt-4 2xl:gap-10 xl:gap-10 lg:gap-10 sm:gap-3 xs:gap-5'>
               <button 
                 className='flex px-2 items-center justify-center flex-cols-1 gap-3 text-sm w-[180px] 
                           rounded-xl h-fit hover:text-white hover:bg-pink-500 bg-white
-                          text-black hover:transform hover:-translate-y-0.3 transition-all' 
+                          text-black hover:transform hover:-translate-y-0.3 transition-all'
                 onClick={handleDownload}
               >
                 <TbFileDownload size='1.4rem' />
