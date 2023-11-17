@@ -12,8 +12,7 @@ const AppView = () => {
           className='flex flex-col 2xl:h-full md:h-auto xs:w-full 2xl:w-[1350px] lg:w-[1100px] md:w-full sm:w-auto 2xl:m-20 
                      lg:m-5 rounded-[40px] items-center bg-black'
         >
-         
-            <Body />
+          <Body />
         </div>
       </div>
     </div>
