@@ -5,7 +5,7 @@ import { AiOutlineLink, AiFillGithub } from 'react-icons/ai';
 const Projects = () => {
   return (
     <>
-      <span class='text-2xl font-normal w-full object-left text-pink-200 indent-5'>Projects and Some Developer Experiments </span>
+      <span class='xl:text-2xl xl:text-2xl sm:text-sm xs:text-sm md:text-sm font-normal w-full object-left text-pink-200 indent-5'>Projects and Some Developer Experiments </span>
         <div class='flex flex-col items-center justify-center'>
           <div 
             class='2xl:!grid 2xl:!grid-cols-2 lg:!grid lg:!grid-cols-2 md:!flex md:flex-col md:!gap-48
