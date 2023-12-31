@@ -5,10 +5,10 @@ development but I can optimize your applications and provide high performance si
 I also code and improve my programming skills to build clean structure with elegant code for
 Back-End and Server-side development with TypeScript and Node.js. I prefer to use Redux to
 manage state during development process. I love writing user interfaces and working on CSS
-architecture with clean code. I mostly coding in React library with TypeScript. I prefer the
-best UI, UX for users. I love writing user interfaces and working in pure CSS and CSS libraries
-like Styled-Components, SaSS,TailwindCSS architecture with clean code. I actually like to use
-some animation libraries too like Framer Motion and PrimeReact`;
+architecture with clean code. I mostly code React libraries in JavaScript. I prefer the
+best UI and UX for users. I love writing user interfaces and working in pure CSS and different CSS libraries
+like Styled-Components, SaSS, TailwindCSS architecture with elegant code. I actually like to use
+some animation libraries too as well like Framer Motion and PrimeReact, GSAP, barba.js, anime.js etc.`;
 
 const Context = () => {
   return (
