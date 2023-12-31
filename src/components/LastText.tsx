@@ -7,8 +7,8 @@ Back-End and Server-side development with TypeScript and Node.js. I prefer to us
 manage state during development process. I love writing user interfaces and working on CSS
 architecture with clean code. I mostly code React libraries in JavaScript. I prefer the
 best UI and UX for users. I love writing user interfaces and working in pure CSS and different CSS libraries
-like Styled-Components, SaSS, TailwindCSS architecture with elegant code. I actually like to use
-some animation libraries too as well like Framer Motion and PrimeReact, GSAP, barba.js, anime.js etc.`;
+like Styled-Components, SaSS, TailwindCSS architecture with elegant code. Actually, I also like to use animation
+libraries such as Framer Motion, GSAP, barba.js, anime.js.`;
 
 const Context = () => {
   return (
